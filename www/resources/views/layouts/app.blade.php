@@ -90,8 +90,6 @@
             </div>
         </div>
 
-        @yield('custom_script')
-
         <script src="{{ asset('assets/painel/plugins/jquery/jquery.min.js') }}"></script>
         <script src="{{ asset('assets/painel/plugins/slimscrollbar/jquery.slimscroll.min.js') }}"></script>
         <script src="{{ asset('assets/painel/plugins/jekyll-search.min.js') }}"></script>
@@ -104,6 +102,8 @@
         <script src="{{ asset('assets/painel/js/sleek.bundle.js') }}"></script>
         <script src="{{ asset('assets/painel/plugins/select2/js/select2.min.js') }}"></script>
         <script src="{{ asset('assets/painel/plugins/jquery-ui/js/jquery-ui.min.js') }}"></script>
+
+        @yield('custom_script')
 
     </body>
 </html>
